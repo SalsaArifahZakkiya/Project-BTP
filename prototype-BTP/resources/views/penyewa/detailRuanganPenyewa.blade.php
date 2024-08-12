@@ -94,7 +94,7 @@
                         <tr>
                             <td class="border border-secondary">Harga Ruangan</td>
                             <td colspan="3" class="border border-secondary">Rp
-                                {{ number_format((int) $ruangan->harga_ruangan, 0, ',', '.') }}</td>
+                                {{ number_format((int) $ruangan->harga_ruangan, 0, ',', '.') }} {{ $ruangan->satuan }}</td>
                         </tr>
                         <tr>
                             <td class="border border-secondary">Status Ruangan</td>
